@@ -39,6 +39,7 @@ class ConvertOptions(ProcessingOptions):
 
     # Marker specific options
     force_ocr: bool = False
+    mode: str = "balanced"
     format_lines: bool = False
     paginate: bool = False
     use_llm: bool = False
